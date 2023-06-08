@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag and Drop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 class="heading">Drag and Drop - Graydot Technologies</h1>
+
+  <div class="container">
+    <h2>Container 1</h2>
+    <div id="container1" class="drag-container">
+      <div class="item" draggable="true">Item 1</div>
+      <div class="item" draggable="true">Item 2</div>
+      <div class="item" draggable="true">Item 3</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Container 2</h2>
+    <div id="container2" class="drag-container"></div>
+    <p id="successMessage" style="display: none;">Item dropped into Container 2!</p>
+  </div>
+
+  <div class="button-container">
+    <button id="resetBtn">Reset</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
